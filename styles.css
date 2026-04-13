@@ -68,11 +68,41 @@ footer {
 .card {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: var(--spacing-300);
     padding: var(--spacing-300);
-    max-width: 350px;
+    width: 384px;
     margin: 0 auto;
     background-color: var(--gray-800);
     border-radius: 10px;
+}
+.card__image img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Social Links */
+.social-links ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    width: 100%;
+    gap: var(--spacing-150);
+}
+
+.social-links li {
+    list-style: none;
+    width: 100%;
+    background-color: var(--gray-700);
+    border-radius: 8px;
+}
+.social-links a {
+    display: block;
+    width: 100%;
+    padding: var(--spacing-150);
+    text-align: center;
+    color: var(--white);
+    text-decoration: none;
 }
